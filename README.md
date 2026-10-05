@@ -65,6 +65,8 @@ cd laoli-tracker
 
 ## 提交约定
 
+协作规则见 [AGENTS.md](AGENTS.md)。本机同步偏好放在被忽略的 `.local/git-sync.json` 中，仓库地址使用 Git remote，凭证交给系统钥匙串管理。完成并验证一个修改批次后，按已授权的配置及时同步。
+
 使用命令行提交与推送。每次提交的 message 应具体说明修改内容，例如：
 
 ```sh

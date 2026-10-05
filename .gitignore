@@ -1,4 +1,5 @@
 # Local runtime data and credentials
+.local/
 data/
 .env
 .env.*
